@@ -1,0 +1,51 @@
+.contact {
+  display: flex;
+  margin-top: 9vh;
+  justify-content: center;
+  width: 55%;
+  align-items: center;
+}
+
+.contact-container {
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background: #0056b3;
+}
+
+.status-message {
+  margin-top: 10px;
+  font-weight: bold;
+}
